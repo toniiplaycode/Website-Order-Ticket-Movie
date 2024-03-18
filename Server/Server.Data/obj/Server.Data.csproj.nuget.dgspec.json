@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DACS1\\Server\\Server.API\\Server.API.csproj": {}
+    "D:\\DACS1\\Server\\Server.Data\\Server.Data.csproj": {}
   },
   "projects": {
-    "D:\\DACS1\\Server\\Server.API\\Server.API.csproj": {
+    "D:\\DACS1\\Server\\Server.Data\\Server.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DACS1\\Server\\Server.API\\Server.API.csproj",
-        "projectName": "Server.API",
-        "projectPath": "D:\\DACS1\\Server\\Server.API\\Server.API.csproj",
+        "projectUniqueName": "D:\\DACS1\\Server\\Server.Data\\Server.Data.csproj",
+        "projectName": "Server.Data",
+        "projectPath": "D:\\DACS1\\Server\\Server.Data\\Server.Data.csproj",
         "packagesPath": "C:\\Users\\Henry-Pham\\.nuget\\packages\\",
-        "outputPath": "D:\\DACS1\\Server\\Server.API\\obj\\",
+        "outputPath": "D:\\DACS1\\Server\\Server.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henry-Pham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,23 +45,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "BCrypt.Net-Core": {
-              "target": "Package",
-              "version": "[1.6.0, )"
-            },
-            "BCrypt.Net-Next": {
-              "target": "Package",
-              "version": "[4.0.3, )"
-            },
-            "Microsoft.AspNet.WebApi.Client": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.3.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
@@ -80,10 +64,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -98,9 +78,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
